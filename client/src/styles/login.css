@@ -1,0 +1,133 @@
+/* General styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #008080, #20b2aa);
+  }
+  
+  .login-box {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008080;
+  }
+  
+  .login-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #008080;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .password-container input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 10px;
+  }
+  
+  .toggle-password {
+    padding: 10px;
+    cursor: pointer;
+    color: #008080;
+  }
+  
+  /* Buttons */
+  .login-btn {
+    background: #008080;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-btn:hover {
+    background: #006666;
+  }
+  
+  /* Links */
+  .forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #008080;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #008080;
+  }
+  
+  .signup-link {
+    color: #20b2aa;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
